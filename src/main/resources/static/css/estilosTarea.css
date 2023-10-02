@@ -1,0 +1,145 @@
+.header{
+    background-color:#BB86FC; /*Primario*/
+    position: fixed;
+    height: 115px;
+    top: 0;
+    left: 0; 
+    width: 100%;
+}
+
+
+.header-text{
+    font-family: sans-serif;
+    text-decoration: none;    
+    display: flex;
+    margin-top: 30px;
+    color : black;
+    margin: 20px;
+    
+}
+
+.header-text:hover{
+    font-family: sans-serif;
+    text-decoration: none;    
+    transition: 0.5s;     
+    margin-top: 30px;
+    color : #03DAC5; /*Secundario*/
+    margin: 20px;
+    display: flex;
+}
+
+.sub-text{
+    font-family: Copperplate;
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.body{
+    box-sizing: border-box;
+    margin: 0;
+    width : 80%;
+    font-family: sans-serif;
+    padding : 115px 20px 0;
+    background-color: #121212;
+    color: white;
+    overflow-y: scroll;
+    
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.aside{
+    position: fixed;
+    color : white;
+    background-color: #3700B3;
+    top: 115px;
+    left:0 ;
+    bottom: 0;
+    width : 20%;
+    text-decoration: none;
+    overflow: scroll;
+    
+}
+
+.aside::-webkit-scrollbar{
+    display: none;
+}
+
+.aside-text:hover{
+    color : #BB86FC;
+    background-color: black;
+    top: 115px;
+    left:0 ;
+    bottom: 20px;
+    text-decoration: none;
+    padding: 8px 12px;
+    
+}
+
+.aside-text{
+    color : white;
+    background-color: #3700B3;
+    top: 115px;
+    left:0 ;
+    bottom: 20px;
+    display : flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+.row{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px ;
+}
+
+.columnR{
+    float: right;
+    width: 50%;
+    padding: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color : white;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #03DAC5;
+}
+
+.open-space{
+    padding-top: 5px;
+}
+
+.more-o-s{
+    padding-top: 10px;
+}
+
+
+.img{
+    margin-left: 35% 
+}
+
+.paragraph{
+    margin-left: 35%;
+    font-family: Garamond;
+    color: white;
+    font-size: 25px;
+}
